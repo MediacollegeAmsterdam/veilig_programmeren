@@ -24,15 +24,27 @@ if(isset($_REQUEST["email"]))
 	Start leerling-code 
 */
 /*Start code by Jesse de Jong*/
- +if(isset($_POST['submit'])){
- +	$verificatiecode = filter_var($_POST['verificatiecode'], FILTER_SANATIZE_NUMBER_INT);
- +	if (preg_match('/^\d{4}$/', $verificatiecode) && $verificatiecode == 1111 /*Example*/) {
- +  	echo "Je code klopt!";
- +	} else {
- +	echo "Er is iets fout gegaan!";
- +	}
- +}
- +/*End of code by Jesse de Jong*/
+
+if(isset($_POST['submit'])){
+	$leerlingnummer = filter_var($_POST['leerlingnummer'], FILTER_SANATIZE_NUMBER_INT);
+	if (preg_match('/^\d{5}$/', $leerlingnummer)) {
+  	echo "Je leerlingnummer klopt!";
+	} else {
+	echo "Er is iets fout gegaan!";
+	}
+}
+/*End of code by Jesse de Jong*/
+
+// zelfstudie :) Kennelijk heeft het 5 nummers een leerling nummer
+// +if(isset($_POST['submit'])){
+// +	$verificatiecode = filter_var($_POST['verificatiecode'], FILTER_SANATIZE_NUMBER_INT);
+// +	if (preg_match('/^\d{4}$/', $verificatiecode) && $verificatiecode == 1111 /*Example*/) {
+// +  	echo "Je code klopt!";
+// +	} else {
+// +	echo "Er is iets fout gegaan!";
+// +	}
+// +}
+// +/*End of code by Jesse de Jong*/
 
 
 /* Start code by Maarten Kampmeijer */
