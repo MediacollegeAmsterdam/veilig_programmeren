@@ -172,7 +172,25 @@ if(isset($_REQUEST["animals"])) {
 }
 /* End of code by Jesse Izeboud */
 
+/* Start code by Maurice de Jong  */
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
+if (isset($_REQUEST["leerlingnummer"])) {
+$intNummer = intval($_REQUEST["leerlingnummer"]);
+
+if (filter_var($intNummer, FILTER_VALIDATE_INT) == true && $_REQUEST["leerlingnummer"] == $intNummer && strlen($_REQUEST["leerlingnummer"]) == 5 && preg_match("%[0-9]{5}%", $_REQUEST["leerlingnummer"])) {
+	echo 'Leerlingnummer is goed<br>' . $_REQUEST["leerlingnummer"];
+} else {
+	echo "leerlingnummer is fout";
+}
+
+} else {
+	echo "Geen nummer ingevoerd";
+}
+
+/* End of code by Maurice de Jong */
+	
 /* End of leerling code. */
 
 echo "<a href='form.html'>back</a>";
