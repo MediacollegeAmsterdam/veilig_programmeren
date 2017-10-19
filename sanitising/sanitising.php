@@ -23,7 +23,16 @@ if(isset($_REQUEST["email"]))
 	
 	Start leerling-code 
 */
-
+/*Start code by Jesse de Jong*/
+if(isset($_POST['submit'])){
+	$leerlingnummer = filter_var($_POST['leerlingnummer'], FILTER_SANATIZE_NUMBER_INT);
+	if (preg_match('/^\d{5}$/', $leerlingnummer)) {
+  	echo "Je leerlingnummer klopt!";
+	} else {
+	echo "Er is iets fout gegaan!";
+	}
+}
+/*End of code by Jesse de Jong*/
 
 /* Start code by Maarten Kampmeijer */
 // let op passwords zijn een uitzondering
