@@ -20,3 +20,5 @@ https://www.tinfoilsecurity.com/free_scan/sites/http-www-snoep-at/scans/se150941
 ## Free pen-test tools
 https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 http://www-03.ibm.com/software/products/en/appscan (free trial)
+http://iseebug.com/XSSOnline/
+http://xss-scanner.com/
