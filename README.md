@@ -12,3 +12,7 @@ Geen online voorbeeld.
 
 ## XSS
 http://snoh.hosts.ma-cloud.nl/vakken/vp/week5/xss-attack-me.php
+
+## Online pen-test tools
+https://pentest-tools.com/home
+https://www.tinfoilsecurity.com/free_scan/sites/http-www-snoep-at/scans/se1509413723207200006
