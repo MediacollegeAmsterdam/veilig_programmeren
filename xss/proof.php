@@ -14,6 +14,11 @@ echo "<a href='".clean_for_output($raw_input,true)."'>Click Here</a><br><br>";
 ?>
 <hr>
 
+<H2>Your best XSS attack</H2>
+<form style="text-align: center;">XSSme: 
+	<textarea cols=100 rows=2 name="xssme" ><?php if(isset($_REQUEST["xssme"])) echo $_REQUEST["xssme"]; ?></textarea>>
+	<input type="submit" value="attack"/>
+</form>
 
 <h2>Or try any of these examples:</h2>
 <ul>
@@ -26,6 +31,7 @@ echo "<a href='".clean_for_output($raw_input,true)."'>Click Here</a><br><br>";
 <li>&lt;img src=x onerror=&amp;#0000106&amp;#0000097&amp;#0000118&amp;#0000097&amp;#0000115&amp;#0000099&amp;#0000114&amp;#0000105&amp;#0000112&amp;#0000116&amp;#0000058&amp;#0000097&amp;#0000108&amp;#0000101&amp;#0000114&amp;#0000116&amp;#0000040&amp;#0000039&amp;#0000088&amp;#0000083&amp;#0000083&amp;#0000039&amp;#0000041&gt;</li>
 </ul>
 <hr>
+
 <h3>Try other flavours..</h3>
 
 <a href="xss-attack-vulnerable.php">NO PROTECTION</a> XSS<br>

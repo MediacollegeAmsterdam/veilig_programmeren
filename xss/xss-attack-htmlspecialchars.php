@@ -3,8 +3,9 @@
 <head>
 <style>
  code{
-	 background-color: #888;
-	 color: #eee;
+	 background:#F8F8FF; border:black dashed 1px; padding:6px;
+	 margin: 5px;
+	 display: block;
  }
 </style>
 </head>
