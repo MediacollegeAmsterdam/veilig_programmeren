@@ -16,3 +16,7 @@ http://snoh.hosts.ma-cloud.nl/vakken/vp/week5/xss-attack-me.php
 ## Online pen-test tools
 https://pentest-tools.com/home
 https://www.tinfoilsecurity.com/free_scan/sites/http-www-snoep-at/scans/se1509413723207200006
+
+## Free pen-test tools
+https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+http://www-03.ibm.com/software/products/en/appscan (free trial)
