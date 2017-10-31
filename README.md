@@ -26,12 +26,12 @@ http://snoh.hosts.ma-cloud.nl/vakken/vp/week5/xss-attack-me.php
 - https://www.dionach.com/blog/the-real-impact-of-cross-site-scripting
 
 ### Online pen-test tools (niet bijster betrouwbaar natuurlijk)
-https://pentest-tools.com/home
-https://www.tinfoilsecurity.com/free_scan/sites/http-www-snoep-at/scans/se1509413723207200006
-http://iseebug.com/XSSOnline/
-http://xss-scanner.com/
+ - https://pentest-tools.com/home
+ - https://www.tinfoilsecurity.com/free_scan/sites/http-www-snoep-at/scans/se1509413723207200006
+ - http://iseebug.com/XSSOnline/
+ - http://xss-scanner.com/
 
 ### Free pen-test tools
-https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
-http://www-03.ibm.com/software/products/en/appscan (free trial)
+ - https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+ - http://www-03.ibm.com/software/products/en/appscan (free trial)
 
