@@ -10,7 +10,7 @@
 		$what=substr(basename(__FILE__),0,-9);
 	?>
       <h1>Sanitising <?php echo $what;?></h1>
-	  <a href="../index.php">Iets anders sanitatizen?</a>
+	  <a href="../index.php">Iets anders sanitizen?</a>
 	  <?php 
 		$action="sanitise/".$what."_sanitise.php";
 		?>
